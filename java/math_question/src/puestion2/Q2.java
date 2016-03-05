@@ -1,4 +1,4 @@
-package puestion;
+package puestion2;
 
 public class Q2 {
 	
