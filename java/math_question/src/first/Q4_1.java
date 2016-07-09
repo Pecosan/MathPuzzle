@@ -1,4 +1,4 @@
-package question4;
+package first;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,7 @@ public class Q4_1 {
 			roop++;
 			// 人数をループ
 			for(int t=0; t<=i; t++) {
-				int divideNum = Util.getDividingSection(divide, t);
+				int divideNum = Q4Util.getDividingSection(divide, t);
 				
 				if(divideNum == -1) {
 					System.out.println(roop);
@@ -40,7 +40,7 @@ public class Q4_1 {
 		while(true) {
 			roop++;
 			for(int t=0; t<=personNum; t++) {
-				int divideNum = Util.getDividingSection(divide, t);
+				int divideNum = Q4Util.getDividingSection(divide, t);
 				
 				if(divideNum == -1) {
 					System.out.println(roop);
@@ -55,7 +55,7 @@ public class Q4_1 {
 				}
 			}
 			
-			if(Util.getDividingSection(divide, 0) == -1) {
+			if(Q4Util.getDividingSection(divide, 0) == -1) {
 				break;
 			}
 		}

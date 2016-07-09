@@ -1,8 +1,8 @@
-package question4;
+package first;
 
 import java.util.List;
 
-public class Util {
+public class Q4Util {
 
 	static int getDividingSection(List<Integer> divide, int person) {
 		

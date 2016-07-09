@@ -1,4 +1,4 @@
-package question6;
+package first;
 
 public class Q6 {
 

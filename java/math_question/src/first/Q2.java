@@ -1,4 +1,4 @@
-package puestion2;
+package first;
 
 public class Q2 {
 	
